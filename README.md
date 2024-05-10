@@ -75,8 +75,8 @@ begin
 			else if(j == 1 && k == 1)	
 			  begin
 			    q <= 1'bz;
-				   qb <= 1'bz;
-				   end
+		            qb <= 1'bz;
+			    end
 		 end
 	end
 endmodule
