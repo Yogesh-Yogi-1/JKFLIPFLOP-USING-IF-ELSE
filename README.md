@@ -65,18 +65,18 @@ begin
 		    q <= q;
 		    qb <= qb;
 		   end
-	else
-		  begin
-		    if(j != k)
-			    begin 
-			    q <= j;
-				   qb <= k;
-				   end
-			else if(j == 1 && k == 1)	
-			  begin
-			    q <= 1'bz;
-		            qb <= 1'bz;
-			    end
+else
+    begin
+	    if(j != k)
+		    begin 
+		    q <= j;
+		    qb <= k;
+		    end
+    else if(j == 1 && k == 1)	
+		    begin
+		    q <= 1'bz;
+		    qb <= 1'bz;
+		    end
 		 end
 	end
 endmodule
